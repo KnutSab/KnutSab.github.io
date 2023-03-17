@@ -1,13 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #010101;
+    color: #ffffff;
+    text-align: center;
 }
 
 header {
-    background-color: #2d4b2d;
+    text-align: center;;
     color: #fff;
     padding: 1px;
+}
+
+main {
+    text-align: center;
 }
 #banner {
     display: flex;
@@ -21,8 +26,13 @@ header {
     max-height: 100%;
     border-radius: 50%;
 }
-
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 nav ul {
+    text-align: center;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -30,14 +40,24 @@ nav ul {
 }
 
 nav li {
-    margin-right: 20px;
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
 }
 
-nav a {
+nav li a {
+    text-align: center;
+    display: block;
     color: #fff;
     text-decoration: none;
 }
 
-main {
-    max-width: 800px;
-    margin:
+
+
+section ul li {
+    list-style: none;
+}
+
+
